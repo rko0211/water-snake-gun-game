@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Snake Gun</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="heading">Play Water Snake Gun Game With</h1>
+        <h1 class="gfg">Geeks For Geeks</h1>
+        <div class="maincontainer">
+            <!-- Computer column -->
+            <div class="col1">
+                <h3 class="bg-col1">COMPUTER</h3><br>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231106145809/Computer.jpg"
+                    alt="Computer Image" id="computerimg">
+            </div>
+            <!-- User column -->
+            <div class="col2">
+                <h3 class="bg-col2">USER</h3><br>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231106144910/User.jpeg" alt="User Image"
+                    id="userimg">
+
+                <!-- Button container -->
+                <div id="btn-container">
+                    <h2>Click Bellow</h2>
+                    <div class="btn-container">
+                        <button type="button" class="btn" id="water" onclick="waterchange()">Water</button>
+                        <button type="button" class="btn" id="Snake" onclick="snakechange()">Snake</button>
+                        <button type="button" class="btn" id="gun" onclick="gunchange()">Gun</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Use to display the result of the game -->
+        <p id="demo" style="color: #ffffff;"></p><br>
+        <span class="msg" style="color: #ffffff;"> Click Bellow To Play Again..</span>
+
+        <p class="mt-2"><button type="button" class="btn btn-primary" id="restart"
+                onclick="refreshPage()">RESTART</button>
+        </p>
+        <div class="cntr">
+            <div class="bubbles b1"></div>
+            <div class="bubbles b2"></div>
+            <div class="bubbles b3"></div>
+            <div class="bubbles b4"></div>
+            <div class="bubbles b10"></div>
+            <div class="bubbles b5"></div>
+            <div class="bubbles b6"></div>
+            <div class="bubbles b7"></div>
+            <div class="bubbles b10"></div>
+            <div class="bubbles b8"></div>
+            <div class="bubbles b9"></div>
+            <div class="bubbles b10"></div>
+            <div class="bubbles b11"></div>
+            <div class="bubbles b12"></div>
+            <div class="bubbles b10"></div>
+            <div class="bubbles b10"></div>
+            <div class="bubbles b11"></div>
+            <div class="bubbles b12"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
