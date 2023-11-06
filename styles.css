@@ -7,7 +7,7 @@
 
 body {
     text-align: center;
-    overflow: hidden;
+   overflow-x: hidden;
     background-color: #3498db;
 
 }
