@@ -11,23 +11,25 @@
 <body>
     <div>
         <h1 class="heading">Play Water Snake Gun Game With</h1>
-<!--         <h1 class="gfg">Geeks For Geeks</h1> -->
+        <h1 class="gfg">Geeks For Geeks</h1>
         <div class="maincontainer">
             <!-- Computer column -->
             <div class="col1">
                 <h3 class="bg-col1">COMPUTER</h3><br>
                 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231106145809/Computer.jpg"
-                    alt="Computer Image" id="computerimg">
+                    alt="Computer Image" id="computerimg"><br>
+                <p class="crecord"></p>
             </div>
             <!-- User column -->
             <div class="col2">
                 <h3 class="bg-col2">USER</h3><br>
                 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231106144910/User.jpeg" alt="User Image"
                     id="userimg">
-
+                <br>
+                <p class="urecord"></p> <br>
                 <!-- Button container -->
                 <div id="btn-container">
-                    <h2>Click Bellow</h2>
+                    <h2 style="color: #ffffff;">Click Bellow</h2>
                     <div class="btn-container">
                         <button type="button" class="btn" id="water" onclick="waterchange()">Water</button>
                         <button type="button" class="btn" id="Snake" onclick="snakechange()">Snake</button>
@@ -36,12 +38,8 @@
                 </div>
             </div>
 
-
         </div>
-        <!-- Use to display the result of the game -->
-        <p id="demo" style="color: #ffffff;"></p><br>
         <span class="msg" style="color: #ffffff;"> Click Bellow To Play Again..</span>
-
         <p class="mt-2"><button type="button" class="btn btn-primary" id="restart"
                 onclick="refreshPage()">RESTART</button>
         </p>
