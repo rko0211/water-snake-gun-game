@@ -7,7 +7,7 @@
 
 body {
     text-align: center;
-   overflow-x: hidden;
+    overflow-x: hidden;
     background-color: #3498db;
 
 }
@@ -130,6 +130,20 @@ body {
     100% {
         transform: translateY(-100);
     }
+}
+
+.crecord {
+    color: #ffffff;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.urecord {
+    color: #ffffff;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 20px;
 }
 
 /* CSS style of the main heading of the web page*/
