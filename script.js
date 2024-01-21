@@ -21,6 +21,7 @@ let U = 0;
 // Take an variable for user choice;
 let user_choice;
 // When user click water button then this function will be executed
+
 function waterchange() {
     // Produced an random number starting from 0 to 2 
     // and the random number is stored in rand_number variable
